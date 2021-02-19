@@ -68,8 +68,7 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
-  border-top: 2px;
-  border-top-color: black;
+  border-top: 2px solid black;
   padding: 10px;
 }
 
@@ -94,10 +93,6 @@ td{
 /*Req 6e*/
 tr:nth-child(even) {
   background-color: #D1D1D1;
-}
-
-tr td {
-  border-top: 2px solid black;
 }
 
 /*Req 6f*/
@@ -144,4 +139,5 @@ footer{
   left: 0px;
   right: 0px;
 }
+
 
