@@ -32,6 +32,7 @@ body{
   background-position: center;
   font-family: "Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
   /*Req 1*/
 }
@@ -79,6 +80,7 @@ td{
   color: #FFFFFF;
   background-color: #7e0820;
   text-transform: uppercase;
+  justify-items: center;
 }
 /*Req 6c*/
 .rowhead{
@@ -92,6 +94,10 @@ td{
 /*Req 6e*/
 tr:nth-child(even) {
   background-color: #D1D1D1;
+}
+
+tr td {
+  border-top: 2px solid black;
 }
 
 /*Req 6f*/
@@ -126,7 +132,6 @@ tbody tr:last-child td:last-child{
 
 /*Add selectors and rules here*/
 
-
 /*Req 8*/
 footer{
   width:100%;
@@ -134,7 +139,9 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
